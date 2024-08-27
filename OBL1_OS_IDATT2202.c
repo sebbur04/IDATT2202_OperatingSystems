@@ -7,10 +7,10 @@
 #include <stdlib.h>  // Include standard library for functions like atoi()
 
 int main(int argc, char *argv[]) {
-    // Check if exactly one command-line argument is provided
+    // Check if a number is inserted when running the script
     if (argc != 2) {
-        printf("Usage: %s <number>\n", argv[0]);
-        return 1;  // Exit with error code 1 if arguments are incorrect
+        printf("How many times would you like the word to be repeated: %s <number>\n", argv[0]);
+        return 1;  // Exit with error code 1 if arguments are incorrect - Like if no numbers are given
     }
 
     // Convert the command-line argument from string to integer using atoi()
