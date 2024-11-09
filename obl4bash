@@ -1,0 +1,8 @@
+// OBLIG 4 Bash
+$ cd os
+$ mkdir OBLIG4
+$ mkdir /tmp/myfolder
+$ cd /tmp/myfolder
+$ for I in `seq 0 4`; do mkdir folder-$I; done
+$ ls -l
+$ ls -ld .
