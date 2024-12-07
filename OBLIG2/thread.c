@@ -9,7 +9,8 @@ void *go (void *n) {
  if(n == 5) 
 sleep(2); // Pause thread 5 execution for 2 seconds
  pthread_exit(100 + n);
- // REACHED?}
+ // REACHED?
+}
 
 int main() { 
 long i;
